@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(150deg, #e91e63, rgb(255, 0, 212));
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.headline {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+#zip,
+#feelings,
+#generate {
+  background: #3a0a1c66;
+  margin:auto;
+  border: none;
+  border-radius: 20px;
+  height: 38px;
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 15px;
+}
+label {
+  text-align: center;
+  color: white;
+  display: block;
+  margin: 60px auto 10px;
+}
+
+#zip::placeholder,
+#feelings::placeholder {
+  color: black;
+  line-height: 30px;
+}
+
+#generate {
+  margin-top: 18px;
+  background: #3a0a1c;
+}
+
+.entry {
+  width: 60%;
+  background: #3a0a1c66;
+  margin:20px auto;
+  border-radius: 20px;
+  height: 250px;
+}
+.title {
+  padding: 20px;
+  text-align: center;
+}
+
+#entryHolder {
+  text-align: center;
+  align-items: center;
+}
+
+#temp,
+#city,
+#date,
+#content {
+  font-size: 2vw;
+}
